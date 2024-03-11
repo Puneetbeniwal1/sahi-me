@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Link</title>
+</head>
+<body>
+    <h1>Click the link to watch the video</h1>
+    <a href="javascript:void(0);" onclick="openVideo()">Watch Video</a>
+
+    <script>
+        function openVideo() {
+            var videoUrl = "https://www.example.com/video.mp4"; // Replace with your video URL
+            var videoWindow = window.open(videoUrl, "_blank");
+            videoWindow.focus();
+        }
+    </script>
+</body>
+</html>
